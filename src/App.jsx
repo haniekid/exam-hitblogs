@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Route, Routes } from "react-router";
 
 import "./App.scss";
@@ -9,9 +8,11 @@ import Home from "./components/Home";
 function App() {
   return (
     <div className="App">
-      <Routes path="exam-hitblogs/" element={Home}>
-        <Route path="exam-hitblogs/blogs" element={Blog}></Route>
-        <Route path="exam-hitblogs/blogs/create" element={Post}></Route>
+      {/* exam-hitblogs */}
+      <Routes path="/" element={<Home />}>
+        <Route path="/blogs" element={<Blog />}></Route>
+        <Route path="/blogs/create" element={<Post />}></Route>
+        <Route path="*" element={<h1>Not found</h1>}></Route>
       </Routes>
     </div>
   );

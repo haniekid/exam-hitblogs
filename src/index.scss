@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Sen:wght@400;700;800&display=swap");
+
+* {
+  outline: none;
+  border: none;
+  font-family: "Sen", sans-serif;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 3rem;
+  button {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(171, 233, 171);
+    text-align: start;
+  }
+}
+
+footer {
+  margin-top: 20rem !important;
+}
+
+.home button {
+  width: 100%;
+  height: 5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.blogs {
+}
+
+.blogs button {
+}
+
+.card {
+  width: 280px;
+  height: 240px;
+  border: 2px solid #ccc;
+  border-radius: 1rem;
+}
+
+.listCards {
+  margin-top: 5rem;
+  display: flex;
+  column-gap: 3rem;
+}
+
+.btn {
+  display: flex;
+  float: right;
+  padding-top: 5rem;
+  button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    background-color: rgb(171, 233, 171);
+  }
+}
+
+h2 {
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.btn-create button {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  background-color: rgb(171, 233, 171);
+}
+
+.blogs .btn-create button {
+  float: right;
+  margin-right: 25rem;
+  margin-top: 2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.post-outlet {
+  display: flex;
+  flex-direction: column;
+}
+.post-outlet button {
+  border-radius: 1rem;
+  text-align: start;
+  border: 1px solid #ccc;
+}
+
+.content {
+  width: 350px;
+  height: 10rem;
+  margin-bottom: 3rem;
+}
+
+.title {
+  width: 100px;
+  height: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
